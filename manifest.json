@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Alarm Notification Extension second",
+  "version": "1.0",
+  "description": "Sets an alarm and shows a notification at the specified time.",
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
